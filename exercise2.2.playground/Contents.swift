@@ -1,4 +1,3 @@
-import UIKit
 
 var a:Double
 var b:Double
@@ -21,4 +20,4 @@ func max3 (input1 a:Double,input2 b:Double,input3 c:Double) -> (Double){
     return tem
 }
 
-print(max3(input1: a, input2: b, input3: c))
+print("The biggest number is \(max3(input1: a, input2: b, input3: c))")
